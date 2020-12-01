@@ -230,6 +230,11 @@
 					]
 				},
 				{
+					"name": "Images",
+					"id": "features-images",
+					"slug": "images"
+				},
+				{
 					"name": "Image upload",
 					"id": "features-image-upload",
 					"slug": "image-upload"

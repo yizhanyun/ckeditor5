@@ -1,6 +1,6 @@
 ---
 title: Images
-category: features
+category: features-images
 ---
 
 {@snippet features/build-image-source}
