@@ -14,7 +14,7 @@ import WidgetToolbarRepository from '@ckeditor/ckeditor5-widget/src/widgettoolba
 /**
  * The image toolbar plugin. It creates and manages the image toolbar (the toolbar displayed when an image is selected).
  *
- * For a detailed overview, check the {@glink features/image#image-contextual-toolbar image contextual toolbar} documentation.
+ * For a detailed overview, check the {@glink features/images/image-base#image-contextual-toolbar image contextual toolbar} documentation.
  *
  * Instances of toolbar components (e.g. buttons) are created using the editor's
  * {@link module:ui/componentfactory~ComponentFactory component factory}

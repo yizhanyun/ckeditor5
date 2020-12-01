@@ -17,14 +17,14 @@ import '../theme/image.css';
 /**
  * The image plugin.
  *
- * For a detailed overview, check the {@glink features/image image feature} documentation.
+ * For a detailed overview, check the {@glink features/images/image image feature} documentation.
  *
  * This is a "glue" plugin which loads the following plugins:
  *
  * * {@link module:image/image/imageediting~ImageEditing},
  * * {@link module:image/imagetextalternative~ImageTextAlternative}.
  *
- * Usually, it is used in conjuction with other plugins from this package. See the {@glink api/image package page}
+ * Usually, it is used in conjunction with other plugins from this package. See the {@glink api/image package page}
  * for more information.
  *
  * @extends module:core/plugin~Plugin

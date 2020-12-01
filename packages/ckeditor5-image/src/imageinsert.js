@@ -15,7 +15,7 @@ import ImageInsertUI from './imageinsert/imageinsertui';
  * The image insert plugin.
  *
  * For a detailed overview, check the {@glink features/image-upload/image-upload Image upload feature}
- * and {@glink features/image#inserting-images-via-source-url Insert images via source URL} documentation.
+ * and {@glink features/images/image-base#inserting-images-via-source-url Insert images via source URL} documentation.
  *
  * This plugin does not do anything directly, but it loads a set of specific plugins
  * to enable image uploading or inserting via implemented integrations:

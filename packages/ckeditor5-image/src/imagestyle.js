@@ -14,7 +14,7 @@ import ImageStyleUI from './imagestyle/imagestyleui';
 /**
  * The image style plugin.
  *
- * For a detailed overview, check the {@glink features/image#image-styles image styles} documentation.
+ * For a detailed overview, check the {@glink features/images/image-styles image styles} documentation.
  *
  * This is a "glue" plugin which loads the {@link module:image/imagestyle/imagestyleediting~ImageStyleEditing}
  * and {@link module:image/imagestyle/imagestyleui~ImageStyleUI} plugins.
@@ -92,7 +92,7 @@ export default class ImageStyle extends Plugin {
  * Note: Setting `title` to one of {@link module:image/imagestyle/imagestyleui~ImageStyleUI#localizedDefaultStylesTitles}
  * will automatically translate it to the language of the editor.
  *
- * Read more about styling images in the {@glink features/image#image-styles Image styles guide}.
+ * Read more about styling images in the {@glink features/images/image-styles Image styles guide}.
  *
  * The feature creates commands based on defined styles, so you can change the style of a selected image by executing
  * the following command:

@@ -2,7 +2,7 @@
 title: Images
 menu-title: Installation
 category: features-images
-order: 60
+order: 70
 ---
 
 {@snippet features/build-image-source}

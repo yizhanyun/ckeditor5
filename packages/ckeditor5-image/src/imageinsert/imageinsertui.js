@@ -17,7 +17,7 @@ import { isImage } from '../image/utils';
  * The image insert dropdown plugin.
  *
  * For a detailed overview, check the {@glink features/image-upload/image-upload Image upload feature}
- * and {@glink features/image#inserting-images-via-source-url Insert images via source URL} documentation.
+ * and {@glink features/images/image-base#inserting-images-via-source-url Insert images via source URL} documentation.
  *
  * Adds the `'imageInsert'` dropdown to the {@link module:ui/componentfactory~ComponentFactory UI component factory}.
  *
