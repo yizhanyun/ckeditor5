@@ -1,6 +1,6 @@
 ---
 title: Images
-menu-title: Base image support
+menu-title: Image basics
 category: features-images
 order: 30
 ---
@@ -65,10 +65,6 @@ By default, if the image caption is empty, the `<figcaption>` element is not vis
 	You can change the placement of the image caption by setting [`caption-side`](https://developer.mozilla.org/en-US/docs/Web/CSS/caption-side) in your {@link builds/guides/integration/content-styles content styles} for the `.ck-content .image > figcaption` style. Changing it to `caption-side: top` will display the caption above the image.
 </info-box>
 
-## Image upload
-
-See the {@link features/image-upload Image upload} guide.
-
 ## Inserting images via source URL
 
 Besides the ability to insert images by uploading them directly from your disk or via CKFinder, you can also configure CKEditor 5 to allow inserting images via source URL.
@@ -87,6 +83,7 @@ ClassicEditor
 
 This will add a new **Insert image** dropdown in the toolbar. To open the panel and add the image URL, click the arrow next to the image button. Check the demo below to insert a new image via URL or update an existing image by selecting it, opening the dropdown panel and pasting a new URL.
 
+<!-- There's something wrong with this demo, looks like it's missing a toolbar -->
 {@snippet features/image-insert-via-url}
 
 ## Responsive images
