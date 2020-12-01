@@ -83,7 +83,6 @@ ClassicEditor
 
 This will add a new **Insert image** dropdown in the toolbar. To open the panel and add the image URL, click the arrow next to the image button. Check the demo below to insert a new image via URL or update an existing image by selecting it, opening the dropdown panel and pasting a new URL.
 
-<!-- There's something wrong with this demo, looks like it's missing a toolbar -->
 {@snippet features/image-insert-via-url}
 
 ## Responsive images
