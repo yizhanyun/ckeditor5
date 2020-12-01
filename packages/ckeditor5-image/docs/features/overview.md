@@ -9,6 +9,8 @@ order: 20
 
 The [`@ckeditor/ckeditor5-image`](https://www.npmjs.com/package/@ckeditor/ckeditor5-image) package contains multiple plugins that implement various image-related features:
 
+{@link features/image Image guide}
+
 * {@link module:image/image~Image} implements [basic support for images](#base-image-support).
 * {@link module:image/imagetoolbar~ImageToolbar} adds the image feature's [contextual toolbar](#image-contextual-toolbar).
 * {@link module:image/imagecaption~ImageCaption} adds support for [captions](#image-captions).

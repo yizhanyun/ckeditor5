@@ -5,6 +5,8 @@ category: features-images
 order: 30
 ---
 
+{@snippet features/build-image-source}
+
 ## Base image support
 
 The {@link module:image/image~Image} feature adds support for plain images with just the `alt` attribute set. This translates to the following HTML:
