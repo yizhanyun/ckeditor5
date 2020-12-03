@@ -9,6 +9,8 @@ order: 20
 
 CKEditor 5 provides extensive support for images. All the important image-related features are available and the users can easily add images to the content ({@link features/image-upload using several convenient methods}), position and style the images easily. Each image can be separately resized, captioned and an alternative text can be provided, as well as a link using the image as an anchor.
 
+See the styles employed to position images in the document, the captions and the image toolbar in the below example.
+
 {@img assets/img/image-feature.png 775 The image feature with captions, styles and image toolbar in the CKEditor 5 WYSIWYG editor.}
 
 The [`@ckeditor/ckeditor5-image`](https://www.npmjs.com/package/@ckeditor/ckeditor5-image) package contains multiple plugins that implement various image-related features. Check the documentation of each subfeature to learn more about it.
