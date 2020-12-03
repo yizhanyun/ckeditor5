@@ -7,14 +7,14 @@ order: 20
 
 {@snippet features/build-image-source}
 
-CKEditor 5 provides extensive support for images. All the important image-related features are provided: the users can easily add images to the content (using several convenient methods), position and style the images easily. Each image can be separately resized, captioned and an alternative text can be provided, as well as a link using the image as an anchor.
+CKEditor 5 provides extensive support for images. All the important image-related features are available and the users can easily add images to the content ({@link features/image-upload using several convenient methods}), position and style the images easily. Each image can be separately resized, captioned and an alternative text can be provided, as well as a link using the image as an anchor.
 
 {@img assets/img/image-feature.png 775 The image feature with captions, styles and image toolbar in the CKEditor 5 WYSIWYG editor.}
 
 The [`@ckeditor/ckeditor5-image`](https://www.npmjs.com/package/@ckeditor/ckeditor5-image) package contains multiple plugins that implement various image-related features. Check the documentation of each subfeature to learn more about it.
 
 <info-box info>
-	All features listed above except image resizing and image linking are enabled by default in all CKEditor 5 WYSIWYG editor builds.
+	All features listed below except image resizing and image linking are enabled by default in all CKEditor 5 WYSIWYG editor builds.
 </info-box>
 
 Managing images from the editor:

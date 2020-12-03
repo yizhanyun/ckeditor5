@@ -6,7 +6,7 @@ order: 10
 
 # Image upload overview
 
-Inserting images into content created with CKEditor 5 is a very common task. In a properly configured rich-text editor, there are several ways for the end user to insert images:
+Inserting {@link features/image images} into content created with CKEditor 5 is a very common task. In a properly configured rich-text editor, there are several ways for the end user to insert images:
 
 * **Pasting** an image from the clipboard.
 * **Dragging** a file from the file system.
