@@ -31,6 +31,7 @@ Managing images from the editor:
 Adding images to the content:
 * {@link module:image/imageupload~ImageUpload} adds support for {@link features/image-upload uploading dropped or pasted images}.
 * {@link module:image/imageinsert~ImageInsert} adds support for {@link features/image-base#inserting-images-via-source-url inserting images via URL} and other custom integrations.
+* {@link module:image/autoimage~AutoImage} adds support for {@link features/image-base#inserting-images-via-source-url inserting images via pasting URL into editor}
 
 <!--
 The all-features-included demo may go here, but we may decide on a better placement as well.
