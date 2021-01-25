@@ -13,6 +13,7 @@ import Rect from '@ckeditor/ckeditor5-utils/src/dom/rect';
 import BalloonPanelView from '@ckeditor/ckeditor5-ui/src/panel/balloon/balloonpanelview';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
+import toArray from '@ckeditor/ckeditor5-utils/src/toarray';
 
 import dragHandleIcon from '../theme/icons/drag-handle.svg';
 import { getTypeAroundFakeCaretPosition } from './widgettypearound/utils';
@@ -133,7 +134,7 @@ export function toWidget( element, writer, options = {} ) {
 
 function addHighlight( element, descriptor, writer ) {
 	if ( descriptor.classes ) {
-		writer.addClass( normalizeToArray( descriptor.classes ), element );
+		writer.addClass( toArray( descriptor.classes ), element );
 	}
 
 	if ( descriptor.attributes ) {
@@ -145,7 +146,7 @@ function addHighlight( element, descriptor, writer ) {
 
 function removeHighlight( element, descriptor, writer ) {
 	if ( descriptor.classes ) {
-		writer.removeClass( normalizeToArray( descriptor.classes ), element );
+		writer.removeClass( toArray( descriptor.classes ), element );
 	}
 
 	if ( descriptor.attributes ) {
@@ -153,11 +154,6 @@ function removeHighlight( element, descriptor, writer ) {
 			writer.removeAttribute( key, element );
 		}
 	}
-}
-
-// Normalizes CSS class in descriptor that can be provided in form of an array or a string.
-function normalizeToArray( classes ) {
-	return Array.isArray( classes ) ? classes : [ classes ];
 }
 
 /**

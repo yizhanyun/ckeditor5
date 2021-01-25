@@ -88,16 +88,16 @@ ClassicEditor
 				'bulletedList',
 				'numberedList',
 				'|',
-				'outdent',
-				'indent',
-				'|',
+				'htmlEmbed',
+				'codeBlock',
 				'blockQuote',
 				'link',
 				'imageUpload',
 				'mediaEmbed',
 				'insertTable',
-				'codeBlock',
-				'htmlEmbed',
+				'|',
+				'outdent',
+				'indent',
 				'|',
 				'undo',
 				'redo'
@@ -162,6 +162,11 @@ ClassicEditor
 			iframeElement.contentWindow.document.open();
 			iframeElement.contentWindow.document.write( html );
 			iframeElement.contentWindow.document.close();
+		} );
+
+		window.attachTourBalloon( {
+			target: window.findToolbarItem( editor.ui.view.toolbar, item => item.label && item.label === 'Insert HTML' ),
+			text: 'Click here to insert new HTML snippet.'
 		} );
 	} )
 	.catch( err => {

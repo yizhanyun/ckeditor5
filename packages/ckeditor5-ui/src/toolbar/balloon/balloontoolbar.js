@@ -185,7 +185,7 @@ export default class BalloonToolbar extends Plugin {
 	afterInit() {
 		const factory = this.editor.ui.componentFactory;
 
-		this.toolbarView.fillFromConfig( this._balloonConfig.items, factory );
+		this.toolbarView.fillFromConfig( this._balloonConfig, factory );
 	}
 
 	/**
@@ -197,13 +197,8 @@ export default class BalloonToolbar extends Plugin {
 	_createToolbarView() {
 		const shouldGroupWhenFull = !this._balloonConfig.shouldNotGroupWhenFull;
 		const toolbarView = new ToolbarView( this.editor.locale, {
-			shouldGroupWhenFull
-		} );
-
-		toolbarView.extendTemplate( {
-			attributes: {
-				class: [ 'ck-toolbar_floating' ]
-			}
+			shouldGroupWhenFull,
+			isFloating: true
 		} );
 
 		toolbarView.render();
